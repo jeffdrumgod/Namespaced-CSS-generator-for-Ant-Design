@@ -23,6 +23,7 @@ gulp.task('build-namespaced-css', function() {
 				{
 					ignoredSelectors: [
 						':root',
+						/^\.zoom-big-fast(.+)$/,
 						/^\.ant(.+)$/,
 						/^\.slide-(.+)$/,
 					]
